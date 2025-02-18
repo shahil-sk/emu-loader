@@ -12,7 +12,8 @@ setup_frida()
 }
 
 # Add the path to 'gmtool' according to your genymotion installation
-GMTOOL="/home/sk/Victims/genymotion/gmtool"
+GMTOOL="#ADD PATH TO YOUR GENYMOTION GMTOOL HERE"
+AVD="#NAME OF YOUR EMULATOR"
 
 FRIDA_VERSION=$(frida --version)
 FRIDA_DOWNLOAD_URL="https://github.com/frida/frida/releases/download/${FRIDA_VERSION}"
@@ -20,7 +21,7 @@ FRIDA_PATH="/data/local/tmp/frida-server"
 
 start_genymotion() {
     echo "[!] Booting Genymotion..."
-    $GMTOOL admin start "victim"
+    $GMTOOL admin start $AVD
     sleep 2
     echo "[✔] Emulator Started"
 }
