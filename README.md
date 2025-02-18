@@ -19,8 +19,8 @@ This repository contains a **Bash automation script** to set up **Frida-Server**
 ### **Usage**  
 Run the script to automate the Frida setup:  
 ```bash
-chmod +x setup_frida.sh
-./setup_frida.sh
+chmod +x emu-loader.sh
+./emu-loader.sh
 ```  
 
 ### **Features in Progress**   
