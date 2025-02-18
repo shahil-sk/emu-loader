@@ -10,7 +10,7 @@ This repository contains a **Bash automation script** to set up **Frida-Server**
 (Auto-Update & Push to Device)  
 ✅ **Starting & Verifying Frida-Server**  
 
-## Note: in the script make sure add the path for genymotion 'gmtool' to "GMTOOL" variable
+## Note: in the script make sure add the path of genymotion gmtool to "GMTOOL" variable
 
 ### **Requirements**  
 - Linux (Tested on Ubuntu)
