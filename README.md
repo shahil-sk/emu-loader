@@ -3,15 +3,17 @@ This repository contains a **Bash automation script** to set up **Frida-Server**
 
 ✅ **Starting Genymotion Emulator**  
 ✅ **Enabling ADB & Magisk Root Access**  
-✅ **Configuring Burp Suite Proxy**  (Burp Certificate You have to install it manually)
-
+✅ **Configuring Burp Suite Proxy** 
+(Burp Certificate You have to install it manually)
 ✅ **Detecting Device Architecture**  
-✅ **Managing Frida-Server Versions (Auto-Update & Push to Device)**  
+✅ **Managing Frida-Server Versions** 
+(Auto-Update & Push to Device)  
 ✅ **Starting & Verifying Frida-Server**  
 
 ### **Requirements**  
-- Linux (Tested on Ubuntu)  
-- ADB & Genymotion installed  
+- Linux (Tested on Ubuntu)
+- ADB  
+- Genymotion installed  
 - Frida tools (`frida`, `frida-server`)  will be installed automatically dw
 
 ### **Usage**  
