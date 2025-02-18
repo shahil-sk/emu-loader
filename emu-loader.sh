@@ -3,6 +3,8 @@ set -e  # Exit script on error
 
 setup_frida()
 {
+    echo "[!] Checking adb install?"
+    sudo apt install adb 
     echo "[!] Checking pipx install?"
     sudo apt install pipx 
     echo "[!] Checking Frida-tools install?"
