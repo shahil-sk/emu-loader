@@ -34,7 +34,9 @@ enable_adb() {
 
 set_magisk_root() {
     echo "[!] Enabling Genymotion Root Access..."
-    sleep 1
+    sleep 3
+    adb shell setprop persist.sys.root_access 3
+    adb shell setprop persist.sys.root_access 3
     adb shell setprop persist.sys.root_access 3
     echo "[✔] Root Granted"
 }
